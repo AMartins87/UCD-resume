@@ -7,19 +7,19 @@
 }
 
 .ui-menu-color-home {
-    background-color: #e74d23;
+    background-color: #1a4a7a;
 }
 
 .ui-menu-color-resume {
-    background-color: #2a50e0;
+    background-color: #470b56;
 }
 
 .ui-menu-color-contact {
-    background-color: #8cde72;
+    background-color:#613220;
 }
 
 .ui-menu-color-download {
-    background-color: #f7df1d;
+    background-color: #ca835d;
 }
 
 /* ------------------------------ Heading */
@@ -32,7 +32,7 @@ header {
 }
 
 .logo  {
-    background: url(../images/profile.jpg);
+    background: url(../images/profile2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,4 +70,35 @@ header {
 #nav li {
     font-size: 14px;
     padding: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
 }
