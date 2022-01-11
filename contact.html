@@ -19,17 +19,21 @@
     <script type="text/javascript">
         (function () {
             emailjs.init("user_AiPHfRuopivnafwbvcW0Z");
-    //         emailjs.sendForm('gmail', 'aneta', {
-    //             name: "Aaron",
-    //             notes: "The project that I want is..."
-    //         })
-    // .then(function(response) {
-    //    console.log('SUCCESS!', response.status, response.text);
-    // }, function(error) {
-    //    console.log('FAILED...', error);
-    // });
+
+            var templateParams = {
+                name: 'James',
+                notes: 'Check this out!'
+            };
+            emailjs.send('service_6caa0dj', 'aneta', templateParams)
+                .then(function (response) {
+                    console.log('SUCCESS!', response.status, response.text);
+                }, function (error) {
+                    console.log('FAILED...', error);
+                });
+            // emailjs.send("service_6caa0dj", "aneta", templateParams, "user_AiPHfRuopivnafwbvcW0Z");
         })();
     </script>
+
 </head>
 
 <body>
